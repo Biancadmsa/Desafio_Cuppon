@@ -1,0 +1,162 @@
+
+*{
+    font-family: "Roboto", sans-serif;  
+}
+
+#Logo{
+    width: 86pt;
+    height:33pt;
+    margin: 15px;
+}
+ .navbar-toggler{
+    height:42pt;
+    border: 1px solid #DDDDDD;
+    width: 59pt;
+    margin: 13px;
+ }
+ .navbar-toggler-icon{
+    font-size: 1.5em; 
+    width: 1.5em; 
+}
+ 
+.cards_container{
+    margin-top: 12rem;
+}
+.card{
+    margin-bottom: 5rem;
+   
+}
+
+.card-body{
+    border: 1px solid #DDDDDD;
+}
+
+#card1{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#text  {
+    font-weight: 300;
+    font-size: 20pt;
+    color: #212529;
+    text-align: left;
+}
+    
+#articulo{
+    font-weight: 300;
+    font-size: 16pt;
+    color: #707070;
+    text-align: left;
+}
+    
+span{
+    color:#707070;
+    font-size: 13pt;
+    font-weight: 300;
+    text-align: left; 
+}
+#costo{
+    color:#707070;
+    font-weight:300 ;
+    font-size: 16px;
+    margin-top: 8px;
+  
+} 
+#costoOferta{
+    color: #28A745;
+    font-size:20pt;
+    font-weight: 500;
+}
+.card-body a{
+    text-decoration: none;
+    text-align: right;
+}
+
+
+
+.Costos{
+   padding-bottom: 1;
+}
+
+
+@media (max-width: 992px) {
+}
+
+.formulario{
+    font-size: 21pt;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 540px) {
+    .formulario {
+        width: 50%;
+        border-radius: 1.5%;
+        margin: 0 auto;
+    }
+    
+    .tamaño-input{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+.label_{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+     margin-bottom: 1rem;
+}
+label{
+    font-size: 21pt;
+    font-weight: 500;
+    color:#FFFFFF;
+    
+   
+}
+#buttonEnviar {
+    margin: 10px auto;
+    border-color: #DDDDDD;
+    background: #F8F9FA;
+    color: #212529;
+    font-weight: 500; 
+    width: 112.71pt;
+    display: block;
+    margin-top: 1rem;
+}
+
+#Input::placeholder {
+    color: #707070;
+    font-size: 16pt;
+    font-weight: 300;
+}
+
+footer{
+	text-align: center;
+}
+
+
+
+footer img{
+	width: 82px;
+	padding-top: 30px;
+}
+
+footer p{
+	color:#707070;
+	font-weight:300;
+    font-size: 16pt;
+    margin-top: 19px;
+    margin-bottom: 30px;
+}
+
+#logoBlack{
+    width: 82pt;
+    
+}
+
